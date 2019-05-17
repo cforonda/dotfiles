@@ -107,7 +107,9 @@ alias vimconfig="vim ~/.vimrc"
 alias workspace="cd ~/Documents/workspace/"
 alias activate="source env/bin/activate"
 
-alias unzipTar="tar -xvzf"
+alias untar="tar -xvzf"
+alias mktar="tar -czvf"
+
 alias pullServer="sudo scp -r cf654@linux.cefns.nau.edu:/home/cf654/public html /home/champ/Documents/workspace/school/CS\ 212"
 alias pushServer="sudo scp -r /home/champ/Documents/workspace/school/CS\ 212/public html cf654@linux.cefns.nau.edu:/home/cf654"
 alias loginServer="ssh cf654@linux.cefns.nau.edu"
