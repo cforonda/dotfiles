@@ -110,9 +110,10 @@ alias activate="source env/bin/activate"
 alias untar="tar -xvzf"
 alias mktar="tar -czvf"
 
+alias loginBot="ssh champ@72.208.219.172" 
 alias pullServer="sudo scp -r cf654@linux.cefns.nau.edu:/home/cf654/public html /home/champ/Documents/workspace/school/CS\ 212"
 alias pushServer="sudo scp -r /home/champ/Documents/workspace/school/CS\ 212/public html cf654@linux.cefns.nau.edu:/home/cf654"
-alias loginServer="ssh cf654@linux.cefns.nau.edu"
+alias loginNAU="ssh cf654@linux.cefns.nau.edu"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

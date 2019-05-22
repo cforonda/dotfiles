@@ -13,7 +13,7 @@ call vundle#end()
 filetype plugin indent on
 
 " ==== Colors and other basic settings
-colorscheme molokai
+colorscheme molokai_dark 
 set guifont=Inconsolata\ 10
 syntax enable
 set background=dark
