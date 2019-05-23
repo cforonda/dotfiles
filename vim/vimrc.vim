@@ -13,7 +13,8 @@ call vundle#end()
 filetype plugin indent on
 
 " ==== Colors and other basic settings
-colorscheme molokai_dark 
+colorscheme molokai
+let g:airline_theme='molokai'
 set guifont=Inconsolata\ 10
 syntax enable
 set background=dark
