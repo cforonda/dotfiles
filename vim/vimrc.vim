@@ -7,7 +7,7 @@ set encoding=UTF-8
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-source /home/champ/.vim/vpm/sources.vim
+source ~/dotfiles/vim/plugins/sources.vim 
 
 call vundle#end()
 filetype plugin indent on
