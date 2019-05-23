@@ -74,7 +74,7 @@ DISABLE_AUTO_TITLE="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(ubuntu) 
+plugins=(ubuntu zsh-autosuggestions) 
 
 source $ZSH/oh-my-zsh.sh
 
